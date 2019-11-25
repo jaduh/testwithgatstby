@@ -9,6 +9,8 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import styled from "styled-components"
+import styles from "../components/styles.module.css"
+
 
 import { rhythm } from "../utils/typography"
 
@@ -33,12 +35,12 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
-            <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+            <p className = {styles.biografie}>
+              Geschreven door <strong>{author}</strong> die in alles een goed verhaal en in iedereen een mooi mens ziet.
+
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              <a href={`https://instagram.com/jadeyorks`}>
+                Volg haar op Instagram
               </a>
             </p>
           </Container>

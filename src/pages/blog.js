@@ -2,27 +2,37 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
-import Layout from "../components/layout"
+
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Button from "../components/button"
+import styles from "../components/styles.module.css"
 
 class Blog extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
+    // const siteTitle = data.site.siteMetadata.title
     const posts = data.allMdx.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
+      <main className = {styles.blogpagina}>
+      <div className= {styles.buttoncontainer}>
+        <Link to="/">
+          <Button>Home</Button>
+        </Link>
+      </div>
+      <SEO title="All posts" />
+      <Bio />
+
+
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
+          
+
               <div key={node.fields.slug}>
-                <h3
+                <h2
                   style={{
                     marginBottom: rhythm(1 / 4),
                   }}
@@ -33,7 +43,7 @@ class Blog extends React.Component {
                   >
                     {title}
                   </Link>
-                </h3>
+                </h2>
                 <small>{node.frontmatter.date}</small>
                 <p
                   dangerouslySetInnerHTML={{
@@ -44,10 +54,9 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
-        </Link>
-      </Layout>
+
+
+      </main>
     )
   }
 }

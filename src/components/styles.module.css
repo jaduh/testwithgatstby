@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Big+Shoulders+Text|Slabo+27px&display=swap');
+
+html{
+font-size: 62.5%;
+}
+body{
+  color: white;
+  background: #FAD0C9FF;
+  height: 100%;
+  width:100vw;
+  font-family:  'Roboto Mono', monospace;
+
+}
+p{
+  font-size: 2.5rem;
+}
+
+body a{
+  color: #9AB0D7;
+}
+
+h1{
+  font-family: 'Slabo 27px';
+  color: white;
+}
+
+
+ h2, button{
+  font-family: 'Big Shoulders Text', cursive;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+
+.biografie{
+  font-size: 1.7rem;
+  width: 50vw;
+}
+.buttoncontainer{
+  width: 100vw;
+  display: flex;
+justify-content: flex-end;
+padding-right: 2rem;
+padding-top: 1rem;
+}
+
+
+
+h1{
+    font-size: 8rem;
+
+}
+
+h2{
+  font-size: 4rem;
+    color:#FB9985;
+}
+
+.enter{display:block;}
+
+.een {
+
+height: 90vh;
+width: 100vw;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  flex-direction: column;
+  text-align: left;
+padding-left: 4rem;
+  padding-right: 4rem;
+
+
+}
+
+.twee{
+  min-height:40vh;
+  width: 100vw;
+background: white;
+    color: #f29b81;
+    padding:5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.drie{
+  color: #f29b81;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem;
+
+
+}
+.vier{
+  padding:12rem;
+    color: #f29b81;
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+
+
+
+    background-color: white;
+}
+
+
+Img{
+  margin: 0;
+}
+
+.tehuur{
+width: 40%;
+height: 25%;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.tehuur p{
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 2rem;
+}
+.drie, .twee p{
+  font-size: 3rem;
+  margin: 4rem 7rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .vier {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+p{
+  text-align: left;
+
+}
+
+.tehuur{
+  min-width: 50vw;
+}
+.vier p{
+  font-size: 3rem;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .tehuur{
+    min-width: 80vw;
+      font-size: 23rem;
+
+  }
+  .tehuur p{
+    font-size: 3rem;
+  
+  }
+}
+
+
+.blogpagina{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 20%;
+}
+
+.blogpoststyle p{
+  color:#555;
+}

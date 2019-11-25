@@ -14,11 +14,11 @@ class Layout extends React.Component {
     if (location.pathname === rootPath || location.pathname === blogPath) {
       header = (
         <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
+          // style={{
+          //   ...scale(1.5),
+          //   marginBottom: rhythm(1.5),
+          //   marginTop: 0,
+          // }}
         >
           <Link
             style={{
@@ -57,6 +57,10 @@ class Layout extends React.Component {
       <Wrapper>
         <div
           style={{
+            display: `flex`,
+            justifyContent: `center`,
+            alignItems: `center`,
+            flexDirection: `column`,
             marginLeft: `auto`,
             marginRight: `auto`,
             maxWidth: rhythm(24),
