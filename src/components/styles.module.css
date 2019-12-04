@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Big+Shoulders+Text|Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Anton|Reenie+Beanie&display=swap');
 
 html{
 font-size: 62.5%;
 }
 body{
   color: white;
-  background: #FAD0C9FF;
+  background: #efb9bc;
   height: 100%;
   width:100vw;
   font-family:  'Roboto Mono', monospace;
@@ -16,23 +17,35 @@ p{
 }
 
 body a{
-  color: #9AB0D7;
+  color: #1e369b;
+  box-shadow: inset 0 0 100px 100px rgb(255, 180, 87);
 }
 
+h1,h2,h3{
+  font-family: 'Anton', sans-serif;
+}
 h1{
-  font-family: 'Slabo 27px';
+
   color: white;
 }
 
+h3{
 
- h2, button{
+  font-size: 4rem;
+
+}
+
+ button{
   font-family: 'Big Shoulders Text', cursive;
+  color:#1e369b;
   border: none;
   box-shadow: none;
   background: none;
 }
 
-
+.aangenaam2{
+width: 50%;
+}
 .biografie{
   font-size: 1.7rem;
   width: 50vw;
@@ -42,7 +55,7 @@ h1{
   display: flex;
 justify-content: flex-end;
 padding-right: 2rem;
-padding-top: 1rem;
+padding-top: 2rem;
 }
 
 
@@ -54,7 +67,7 @@ h1{
 
 h2{
   font-size: 4rem;
-    color:#FB9985;
+    color:#efb9bc;
 }
 
 .enter{display:block;}
@@ -78,7 +91,7 @@ padding-left: 4rem;
   min-height:40vh;
   width: 100vw;
 background: white;
-    color: #f29b81;
+    color:  #efb9bc;
     padding:5rem;
     display: flex;
     flex-direction: column;
@@ -86,19 +99,20 @@ background: white;
     justify-content: center;
 }
 .drie{
-  color: #f29b81;
+  color:  #efb9bc;
+  background: #ffb457;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 5rem;
+
 
 
 }
 .vier{
   padding:12rem;
-    color: #f29b81;
+    color:  #efb9bc;
     width: 100vw;
     min-height: 100vh;
 
@@ -112,8 +126,9 @@ background: white;
 }
 
 
-Img{
+.jade{
   margin: 0;
+  width: 50%;
 }
 
 .tehuur{
@@ -151,13 +166,21 @@ p{
   text-align: left;
 
 }
-
+.aangenaam2{
+width: 100%;
+}
 .tehuur{
   min-width: 50vw;
 }
 .vier p{
   font-size: 3rem;
 }
+
+}
+
+.ondertitel{
+  font-family: 'Homemade Apple';
+  color:#1e369b;
 
 }
 
@@ -168,11 +191,21 @@ p{
       font-size: 23rem;
 
   }
+
+  .aangenaam2{
+  width: 80%;
+  }
   .tehuur p{
     font-size: 3rem;
-  
+
+  }
+  .jade{
+    margin: 0;
+    width: 100%;
   }
 }
+
+
 
 
 .blogpagina{
