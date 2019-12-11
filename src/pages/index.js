@@ -2,9 +2,11 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Jade from "../images/jadejade.jpg"
+import Pijltje from "../images/pijltje.png"
 import Insta from "../images/instagram-logo.png"
 import Keyboard from "../images/keyboard.png"
 import Video from "../images/video.png"
+import Nav from "../components/nav.js"
 
 
 // import Layout from "../components/layout"
@@ -23,6 +25,7 @@ class IndexPage extends React.Component {
       // <Layout location={this.props.location} title={siteTitle}>
 
 <main>
+< Nav />
     <div className= {styles.buttoncontainer}>
       <Link to="/blog/">
         <Button>BLOG</Button>
@@ -43,6 +46,7 @@ class IndexPage extends React.Component {
             </h2>
 
         </div>
+        <img className={styles.pijl}  src={Pijltje}/>
     </div>
     <div className= {styles.twee}>
 
