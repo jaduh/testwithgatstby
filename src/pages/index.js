@@ -2,10 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Jade from "../images/jadejade.jpg"
-import Pijltje from "../images/pijltje.png"
-import Insta from "../images/instagram-logo.png"
-import Keyboard from "../images/keyboard.png"
-import Video from "../images/video.png"
+import Hug from "../images/hug.png"
 import Nav from "../components/nav.js"
 
 
@@ -25,15 +22,17 @@ class IndexPage extends React.Component {
       // <Layout location={this.props.location} title={siteTitle}>
 
 <main>
+
+
+
 < Nav />
-    <div className= {styles.buttoncontainer}>
-      <Link to="/blog/">
-        <Button>BLOG</Button>
-      </Link>
-    </div>
+
     <div className= {styles.een}>
 
 
+
+
+        <div className= {styles.subeen}>
         <SEO
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
@@ -46,8 +45,10 @@ class IndexPage extends React.Component {
             </h2>
 
         </div>
-        <img className={styles.pijl}  src={Pijltje}/>
+
     </div>
+    </div>
+
     <div className= {styles.twee}>
 
 
@@ -59,7 +60,17 @@ class IndexPage extends React.Component {
 
    </h2>
 <img className= {styles.jade}src={Jade}/>
-<h3 className= {styles.aangenaam2}>Ik maak bedrijven online zichtbaar met verhalen die mensen raken.  Copywriting voor je salespage, storytelling voor op je blog of video’s voor je sociale mediakanalen. Daarvoor zit je bij mij goed.</h3>
+<h3 className= {styles.aangenaam2}>Copywriter gespecialiseerd in Human to Human storytelling marketing.</h3>
+<div className = {styles.paragraaf}>
+<p>Laten we eerlijk zijn. Tegenwoordig heeft niemand tijd voor gelikte B2C-praatjes. Daarvoor is de hoeveelheid nutteloze informatie die een mens dagelijks moet verduren simpelweg te groot.
+
+</p>
+<div className= {styles.imageContainer}>
+<img src={Hug}/>
+</div>
+
+<p>Waar Iedereen wel naar hunkert is naar menselijke connecties. Mensen willen zich verbonden voelen met mensen. </p>
+</div>
 <Link to="/blog/">
   <Button>VERTEL ME MEER</Button>
 </Link>

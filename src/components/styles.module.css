@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Big+Shoulders+Text|Slabo+27px&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Anton|Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Anton|Reenie+Beanie|Pacifico&display=swap');
 
 html{
 font-size: 62.5%;
@@ -14,6 +14,7 @@ body{
 }
 p{
   font-size: 2.5rem;
+
 }
 
 body a{
@@ -34,13 +35,22 @@ h3{
   font-size: 4rem;
 
 }
+header{
+justify-content: space-between;
+  display: flex;
+  padding-bottom: 5rem;
 
+}
  button{
   font-family: 'Big Shoulders Text', cursive;
   color:#1e369b;
   border: none;
   box-shadow: none;
   background: none;
+}
+
+.paragraaf{
+  width:55vw;
 }
 
 .aangenaam2{
@@ -58,6 +68,13 @@ padding-right: 2rem;
 padding-top: 2rem;
 }
 
+.imageContainer{
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
 
 
 h1{
@@ -71,22 +88,44 @@ h2{
 }
 
 .enter{display:block;}
-
-.een {
-
-height: 90vh;
-width: 100vw;
-  display: flex;
-  justify-content: center;
-align-items: center;
-  flex-direction: column;
-  text-align: left;
-padding-left: 4rem;
-  padding-right: 4rem;
+.logo{
+  font-family: 'Pacifico', cursive;
+  font-size:2rem;
+  padding: 2rem;
+  color: #fff;
 
 
 }
+.een {
 
+height: 85vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+background-image: linear-gradient(rgba(237, 182, 182,.9), rgba(237, 182, 182,.9)),url("../images/jadejade.jpg");
+background-position: bottom;
+background-size: cover;
+
+}
+
+.subeen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+
+/* .witruimte{
+  min-height:10vh;
+
+} */
 .twee{
   min-height:40vh;
   width: 100vw;
@@ -131,24 +170,12 @@ background: white;
   width: 50%;
 }
 
-.tehuur{
-width: 40%;
-height: 25%;
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem;
-}
 
-.tehuur p{
-  font-size: 1.5rem;
-  text-align: justify;
-  margin: 2rem;
-}
+
+
 .drie, .twee p{
-  font-size: 3rem;
-  margin: 4rem 7rem;
+  font-size: 2rem;
+  margin: 3rem 7rem 0 7rem;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -167,7 +194,11 @@ p{
 
 }
 
-.pijl{margin:0}
+.paragraaf{
+  width: 80vw;
+  font-size: 2.5rem;
+}
+
 .aangenaam2{
 width: 100%;
 }
@@ -183,17 +214,15 @@ width: 100%;
 .ondertitel{
   font-family: 'Homemade Apple';
   color:#1e369b;
-  text-align: center;
+  text-align: left;
 
 }
 
 @media screen and (max-width: 600px) {
 
-  .tehuur{
-    min-width: 80vw;
-      font-size: 23rem;
-
-  }
+nav{
+  margin-bottom: 4rem;
+}
 h1{
   font-size: 6rem;
 }
@@ -203,7 +232,15 @@ h2{
 }
 
 h3{
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+.twee p{
+  font-size: 1.3rem;
+}
+
+.paragraaf{
+  width: 100vw;
 }
   .aangenaam2{
   width: 80%;
@@ -259,6 +296,8 @@ margin: 0 20%;
   top: 50px;
   left: 50px;
 font-size: 2rem;
+color:#fff;
+font-family: 'Anton';
   z-index: 1;
 
   -webkit-user-select: none;
@@ -268,14 +307,14 @@ font-size: 2rem;
 .menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: #efb9bc;
 
   transition: color 0.3s ease;
 }
 
 .menuToggle a:hover
 {
-  color: tomato;
+  color: #efd100;
 }
 
 
@@ -302,7 +341,7 @@ font-size: 2rem;
 .menuToggle span
 {
   display: block;
-  width: 10%;
+  width: 100%;
   height:auto;
   margin-bottom: 5px;
   position: relative;
@@ -337,7 +376,7 @@ font-size: 2rem;
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #1e369b;
 }
 
 /*
@@ -369,7 +408,7 @@ font-size: 2rem;
   padding: 50px;
   padding-top: 125px;
 
-  background: #ededed;
+  background: #1e369b;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
