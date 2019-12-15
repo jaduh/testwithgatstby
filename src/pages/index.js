@@ -24,8 +24,9 @@ class IndexPage extends React.Component {
 <main>
 
 
-
+<header>
 < Nav />
+</header>
 
     <div className= {styles.een}>
 
