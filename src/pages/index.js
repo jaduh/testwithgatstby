@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Jade from "../images/jadejade.jpg"
 import Hug from "../images/hug.png"
+import Passion from "../images/passion.png"
 import Nav from "../components/nav.js"
 
 
@@ -24,13 +25,13 @@ class IndexPage extends React.Component {
 <main>
 
 
-<header>
-< Nav />
-</header>
+
 
     <div className= {styles.een}>
 
-
+    <header>
+    < Nav />
+    </header>
 
 
         <div className= {styles.subeen}>
@@ -48,6 +49,9 @@ class IndexPage extends React.Component {
         </div>
 
     </div>
+    <Link to="/blog/">
+      <Button className= {styles.knop}>VERTEL ME MEER</Button>
+    </Link>
     </div>
 
     <div className= {styles.twee}>
@@ -70,7 +74,18 @@ class IndexPage extends React.Component {
 <img src={Hug}/>
 </div>
 
-<p>Waar Iedereen wel naar hunkert is naar menselijke connecties. Mensen willen zich verbonden voelen met mensen. </p>
+<p>Wel hunkert iedereen naar menselijke connecties. Mensen willen zich verbonden voelen met mensen. </p>
+<div className= {styles.imageContainer}>
+<img src={Passion}/>
+</div>
+<p>Maak het ze gemakkelijk om een warme band met jouw bedrijf te krijgen.  Focus je marketing niet steeds op je product, maar op de mensen die er gepassioneerd over zijn.
+</p>
+
+
+  <h2 className = {styles.aangenaam}>Kan je daar wat hulp bij gebruiken?
+Ik ben er voor je!</h2>
+
+
 </div>
 <Link to="/blog/">
   <Button>VERTEL ME MEER</Button>

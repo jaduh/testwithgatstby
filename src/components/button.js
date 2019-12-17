@@ -17,7 +17,7 @@ const ButtonWrapper = styled.button`
   letter-spacing: 2px;
 
 
-  color: ${props => props.props.color || "#1e369b"};
+  color: ${props => props.props.color || "#fff"};
   font-size: ${props => props.props.fontSize || "15px"};
   font-weight: ${props => props.props.fontWeight || "600"};
   border-radius: ${props => props.props.radius || "4px"};
