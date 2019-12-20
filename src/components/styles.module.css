@@ -22,7 +22,9 @@ body a{
   box-shadow: inset 0 0 100px 100px rgb(0, 122, 204);
 }
 
-
+ a{
+    box-shadow: inset 0 0 100px 100px rgb(30, 54, 155);
+}
 .knop{
   background-color: blue;
 }
@@ -51,10 +53,14 @@ justify-content: space-between;
   border: none;
   box-shadow: none;
   background: none;
+
 }
 
 
-
+.enter{
+  display: block;
+  text-align: center;
+}
 .paragraaf{
   width:55vw;
 }
@@ -204,7 +210,7 @@ p{
 
 .paragraaf{
   width: 80vw;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .aangenaam2{
@@ -245,7 +251,7 @@ h3{
 }
 
 .twee p{
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .paragraaf{
