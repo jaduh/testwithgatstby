@@ -36,7 +36,7 @@ function Bio() {
               }}
             />
             <p className = {styles.biografie}>
-              Geschreven door <strong>{author}</strong> die in alles een goed verhaal en in iedereen een mooi mens ziet.
+               <strong>{author}</strong> ziet in alles een goed verhaal en in iedereen een mooi mens.
 
               {` `}
               <a href={`https://instagram.com/jadeyorks`}>
