@@ -45,6 +45,7 @@ header{
 justify-content: space-between;
   display: flex;
   padding-bottom: 5rem;
+  background: white;
 
 }
  button{
@@ -311,7 +312,8 @@ margin: 0 20%;
   top: 50px;
   left: 50px;
 font-size: 2rem;
-color:#fff;
+color:#efb9bc;
+
 font-family: 'Anton';
   z-index: 1;
 

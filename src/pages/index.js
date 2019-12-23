@@ -23,24 +23,32 @@ class IndexPage extends React.Component {
       // <Layout location={this.props.location} title={siteTitle}>
 
 <main>
-  <div className= {styles.een}>
-    <header>
-      < Nav />
-    </header>
-    <div className= {styles.subeen}>
-      <SEO
-        title="Home"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}/>
-      <div className= {styles.kop}>
-        <h1>Jouw bedrijf doet mooie dingen.</h1>
-        <h2 className = {styles.ondertitel}>
-                      En dat mogen best wat meer mensen weten.</h2>
-      </div>
-    </div>
-    <Link to="/overmij/">
-      <Button className= {styles.button}>VERTEL ME MEER</Button>
-    </Link>
+<SEO
+  title="Home"
+  keywords={[`blog`, `Jade Yorks`, `Human to Human marketing`, `storytelling`, `content marketing`]}/>
+
+  <header>
+    < Nav />
+  </header>
+
+    <div className= {styles.twee}>
+
+
+
+    <h2 className = {styles.aangenaam}>Hoi, ik ben Jade <span role="img" aria-label="wave emoji">
+                  👋🏽  </span>
+    </h2>
+    <img className= {styles.jade}src={Jade}/>
+    <h3 className= {styles.aangenaam2}> <span className={styles.enter}>Copywriter, Storyteller en</span> <span className={styles.enter}>Human-to-Human Marketeer</span></h3>
   </div>
+
+
+
+
+    <Link to="https://gmail.us20.list-manage.com/subscribe?u=26f55f436294170531290a327&id=0ac7a752f5/">
+      <Button className= {styles.button}>Schrijf je in voor mijn nieuwsbrief</Button>
+    </Link>
+
 
 
 
