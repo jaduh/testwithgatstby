@@ -36,11 +36,11 @@ class IndexPage extends React.Component {
 <div className= {styles.twee}>
 
 
-<h2 className = {styles.aangenaam}>Hoi, ik ben Jade <span role="img" aria-label="wave emoji">
-              👋🏽  </span>
+<h2 className = {styles.aangenaam}>Aangenaam.
 </h2>
 <img className= {styles.jade}src={Jade}/>
-<h3 className= {styles.aangenaam2}> <span className={styles.enter}>Copywriter, Storyteller en</span> <span className={styles.enter}>Human-to-Human Marketeer</span></h3>
+<h3 className= {styles.aangenaam2}> <span className={styles.enter}>Ik ben Jade en ik ben nogal geobsedeerd door storytelling, human-to-human marketing en innovatieve bedrijven die het beste voor hebben met de wereld.
+</span> </h3>
 <div className = {styles.paragraaf}>
 <div className= {styles.imageContainer}>
   <img src={Hug}/>

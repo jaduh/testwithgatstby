@@ -5,8 +5,8 @@ html{
 font-size: 62.5%;
 }
 body{
-  color: white;
-  background: #efb9bc;
+  color: #1e369b;
+  background: #fff4d0;
   height: 100%;
   width:100vw;
   font-family:  'Roboto Mono', monospace;
@@ -19,21 +19,21 @@ p{
 
 body a{
   color: #1e369b;
-  box-shadow: inset 0 0 100px 100px rgb(0, 122, 204);
+  box-shadow: inset 0 0 100px 100px rgb(255, 180, 156);
 }
 
  a{
-    box-shadow: inset 0 0 100px 100px rgb(30, 54, 155);
+   box-shadow: inset 0 0 100px 100px rgb(255, 180, 156);
 }
 .knop{
   background-color: blue;
 }
-h1,h2,h3{
-  font-family: 'Anton', sans-serif;
+h2,h3{
+  font-family: 'Big Shoulders Text', sans-serif;
 }
 h1{
-
-  color: white;
+font-family: 'Anton', sans-serif;
+  color: #ffb49c;
 }
 
 h3{
@@ -97,7 +97,7 @@ h1{
 
 h2{
   font-size: 4rem;
-    color:#efb9bc;
+    color:#ffb49c;
 }
 
 .enter{display:block;}
@@ -145,7 +145,7 @@ background-size: cover;
   min-height:40vh;
   width: 100vw;
 background: white;
-    color:  #efb9bc;
+    color:  #ffb49c;
     padding:5rem;
     display: flex;
     flex-direction: column;
@@ -312,7 +312,7 @@ margin: 0 20%;
   top: 50px;
   left: 50px;
 font-size: 2rem;
-color:#efb9bc;
+color:#ffb49c;
 
 font-family: 'Anton';
   z-index: 1;

@@ -4,7 +4,7 @@ module.exports = {
     title: `Naar andere blogverhalen`,
     author: `Jade Yorks`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `jadeyorks.com`,
     social: {
       twitter: `kylemathews`,
     },

@@ -40,16 +40,17 @@ class IndexPage extends React.Component {
     </h2>
     <img className= {styles.jade}src={Jade}/>
     <h3 className= {styles.aangenaam2}> <span className={styles.enter}>Copywriter, Storyteller en</span> <span className={styles.enter}>Human-to-Human Marketeer</span></h3>
+     <a href="https://mailchi.mp/8cc43c9275e1/jadeyorks" target="_blank">
+      <Button className= {styles.button}>Schrijf je in voor mijn nieuwsbrief</Button>
+    </a>
   </div>
 
 
 
-
-    <Link to="https://gmail.us20.list-manage.com/subscribe?u=26f55f436294170531290a327&id=0ac7a752f5/">
-      <Button className= {styles.button}>Schrijf je in voor mijn nieuwsbrief</Button>
-    </Link>
+<footer>
 
 
+</footer>
 
 
 
