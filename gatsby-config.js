@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Naar andere blogverhalen`,
+    title: `blog`,
     author: `Jade Yorks`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    description: `een stoyrteller die nogal geobsedeerd is door Human-to-Human markering`,
     siteUrl: `jadeyorks.com`,
     social: {
       twitter: `kylemathews`,
@@ -79,7 +79,6 @@ module.exports = {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below

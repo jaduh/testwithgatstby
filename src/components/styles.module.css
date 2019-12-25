@@ -13,7 +13,7 @@ body{
 
 }
 p{
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 
 }
 
@@ -28,13 +28,15 @@ body a{
 .knop{
   background-color: blue;
 }
-h2,h3{
+h3{
   font-family: 'Big Shoulders Text', sans-serif;
 }
-h1{
+h1,h2{
 font-family: 'Anton', sans-serif;
   color: #ffb49c;
+
 }
+
 
 h3{
 
@@ -45,15 +47,23 @@ header{
 justify-content: space-between;
   display: flex;
   padding-bottom: 5rem;
-  background: white;
 
+
+}
+
+.navblogcontainer{
+
+  justify-content: space-between;
+    display: flex;
+  background: none;
 }
  button{
   font-family: 'Big Shoulders Text', cursive;
   color:#1e369b;
   border: none;
   box-shadow: none;
-  background: none;
+  background: #1e369b;
+  margin: .5rem;
 
 }
 
@@ -137,6 +147,8 @@ background-size: cover;
 
 }
 
+
+
 /* .witruimte{
   min-height:10vh;
 
@@ -144,7 +156,7 @@ background-size: cover;
 .twee{
   min-height:40vh;
   width: 100vw;
-background: white;
+
     color:  #ffb49c;
     padding:5rem;
     display: flex;
@@ -189,10 +201,14 @@ background: white;
 
 
 .drie, .twee p{
-  font-size: 2rem;
-  margin: 3rem 7rem 0 7rem;
+  font-size: 2.5rem;
+  margin: 0 7rem 3rem 7rem;
   font-family: 'Roboto Mono', monospace;
+  color: #ffb49c;
+
 }
+
+
 
 .pijl{margin-top:25rem;}
 
@@ -252,7 +268,7 @@ h3{
 }
 
 .twee p{
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 .paragraaf{
@@ -331,7 +347,7 @@ font-family: 'Anton';
 
 .menuToggle a:hover
 {
-  color: #efd100;
+  color: #fff4d0;
 }
 
 

@@ -39,8 +39,8 @@ function Bio() {
                <strong>{author}</strong> ziet in alles een goed verhaal en in iedereen een mooi mens.
 
               {` `}
-              <a href={`https://instagram.com/jadeyorks`}>
-                Volg haar op Instagram
+              <a href={`https://mailchi.mp/8cc43c9275e1/jadeyorks`}>
+                Ontvang haar nieuwsbrief
               </a>
             </p>
           </Container>

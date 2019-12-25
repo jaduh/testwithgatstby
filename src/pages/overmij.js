@@ -28,18 +28,18 @@ class IndexPage extends React.Component {
       // <Layout location={this.props.location} title={siteTitle}>
 
 <main>
-<Link to="/">
-  <Button>Home</Button>
-</Link>
+<header>
+  < Nav />
+</header>
 
 
 <div className= {styles.twee}>
 
 
-<h2 className = {styles.aangenaam}>Aangenaam.
+<h2 className = {styles.aangenaam}>Aangenaam. Ik ben Jade.
 </h2>
 <img className= {styles.jade}src={Jade}/>
-<h3 className= {styles.aangenaam2}> <span className={styles.enter}>Ik ben Jade en ik ben nogal geobsedeerd door storytelling, human-to-human marketing en innovatieve bedrijven die het beste voor hebben met de wereld.
+<h3 className= {styles.aangenaam2}> <span className={styles.enter}> En ik ben nogal geobsedeerd door storytelling, human-to-human marketing en innovatieve bedrijven die het beste voor hebben met de wereld.
 </span> </h3>
 <div className = {styles.paragraaf}>
 <div className= {styles.imageContainer}>

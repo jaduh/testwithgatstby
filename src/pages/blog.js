@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
+import Nav from "../components/nav"
 
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -15,8 +16,16 @@ class Blog extends React.Component {
     const posts = data.allMdx.edges
 
     return (
+      <div>
+<div className= {styles.navblogcontainer}>
+        < Nav />
+</div>
       <main className = {styles.blogpagina}>
+
+
       <div className= {styles.buttoncontainer}>
+
+
         <Link to="/">
           <Button>Home</Button>
         </Link>
@@ -29,7 +38,7 @@ class Blog extends React.Component {
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-          
+
 
               <div key={node.fields.slug}>
                 <h2
@@ -57,6 +66,7 @@ class Blog extends React.Component {
 
 
       </main>
+      </div>
     )
   }
 }
