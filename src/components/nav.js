@@ -22,10 +22,10 @@ function Nav(props) {
 
 
         <ul className={styles.menu}>
-              <a href="/"><li>Home</li></a>
+
           <a href="/blog"><li>Blog</li></a>
           <a href="/overmij"><li>Over Mij</li></a>
-          <a href="https://erikterwan.com/" target="_blank"><li>Nieuwsbrief</li></a>
+          <a href="https://mailchi.mp/8cc43c9275e1/jadeyorks" target="_blank"><li>Nieuwsbrief</li></a>
         </ul>
       </div>
     </nav>

@@ -27,7 +27,7 @@ class Blog extends React.Component {
 
 
         <Link to="/">
-          <Button>Home</Button>
+          Jade Yorks
         </Link>
       </div>
       <SEO title="All posts" />

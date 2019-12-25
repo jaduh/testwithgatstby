@@ -45,24 +45,25 @@ class IndexPage extends React.Component {
 <div className= {styles.imageContainer}>
   <img src={Hug}/>
 </div>
-  <p>Laten we eerlijk zijn. Tegenwoordig heeft niemand tijd voor gelikte B2C-praatjes. Daarvoor is de hoeveelheid nutteloze informatie die een mens dagelijks moet verduren simpelweg te groot.</p>
+  <p>Ooit was het mijn droom om journalist te zijn, maar dat hijgen en jagen achter het laatste nieuws bleek niet zo mijn ding. </p>
 
-  <p>Wel hunkert iedereen naar menselijke connecties. Mensen willen zich verbonden voelen met mensen. </p>
+  <p>Verhalen maken daarentegen is waar mijn hart wel heerlijk gepassioneerd van klopt. Liefst doe ik hele dagen lang aan luisteren, luisteren, luisteren om vervolgens de juiste boodschap mooi en op maat in een reeks verhalen te verpakken. Heerlijk. </p>
           <div className= {styles.imageContainer}>
               <img src={Passion}/>
           </div>
-          <p>Maak het ze gemakkelijk om een warme band met jouw bedrijf te krijgen.  Focus je marketing niet steeds op je product, maar op de mensen die er gepassioneerd over zijn.
+          <p>Mijn missie is om mensen en bedrijven die het beste voor hebben met de wereld daarmee te helpen.
+
           </p>
 
 
-            <h2 className = {styles.aangenaam}><span className={styles.enter}>Kan je daar wat hulp bij gebruiken?</span><span className={styles.enter}>
-          Ik ben er voor je!</span></h2>
+            <h2 className = {styles.aangenaam}><span className={styles.enter}>Kan ik jou daarbij helpen?</span>
+        </h2>
 
 
 
 
 
-          <p>Ik maak al een eeuwigheid verhalen die aandacht trekken en vertrouwen winnen. Luisteren is daarbij mijn superpower. Wil je weten hoe ik dat precies aanpak?</p>
+          <p>Ik maak al een eeuwigheid verhalen die aandacht trekken en vertrouwen winnen. Luisteren is daarbij mijn superpower. Meer weten?</p>
 
 </div>
 
@@ -70,15 +71,15 @@ class IndexPage extends React.Component {
 <Link to="/blog/">
 <Button>Lees mijn Blog</Button>
 </Link>
-<Link to="/blog/">
+<a href="https://mailchi.mp/8cc43c9275e1/jadeyorks">
 <Button>Ontvang mijn nieuwsbrief</Button>
-</Link>
-<Link to="/blog/">
+</a>
+<a href="mailto:jadeyorks@gmail.com">
 <Button>Mail mij</Button>
-</Link>
-<Link to="/blog/">
+</a>
+ <a href="https://calendly.com/jadeyorks/15min" target="_blank">
 <Button>Of laten we bellen</Button>
-</Link>
+</a>
  </div>
 
 

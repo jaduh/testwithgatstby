@@ -29,6 +29,13 @@ class IndexPage extends React.Component {
 
   <header>
     < Nav />
+    <div className= {styles.buttoncontainer}>
+
+
+      <Link to="/">
+        Jade Yorks
+      </Link>
+    </div>
   </header>
 
     <div className= {styles.twee}>
